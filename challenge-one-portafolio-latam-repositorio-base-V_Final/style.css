@@ -1,0 +1,194 @@
+/*CSS Reset / Normalize*/
+/* Hemos disponibilizado el básico de reset de estilos. Si quieren, añadan más informaciones 
+en las secciones señaladas */
+/*Já deixaremos o básico de reset de estilos. Caso queira adicionar mais informações
+coloque nas sessões indicadas*/
+
+:root{
+    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+   --cor-de-fundo: #ebd7ce;
+   --cor-de-link: #000;
+}
+h3{
+    font-family: 'Raleway';
+    font-size: "30";
+    font-weight: bold;
+
+    text-shadow: 0.05em 0.15em 3px #444343;
+}
+.menu__title {
+    top: 100px;
+    /*font-family: 'Raleway';
+    font-size: "16";
+    font-weight: bold;
+    text-shadow: 0.05em 0.15em 3px #444343;*/
+}
+.title__bio{
+    font-family: 'Raleway';
+    font-size: "22";
+    font-weight: bold;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-de-fundo) ;
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+ol, ul,li {
+    list-style: none;
+    font-weight: bold;
+}
+ ul.title__network {
+    color: #f37940;
+    
+}
+a{
+    text-decoration: none;
+    color: var(--cor-de-link) #683be4;
+    font-weight: lighter;
+}
+
+.about{
+    background-color: white;
+}
+.experience__botao--demo{
+background-color: #f37940;
+border: #ebd7ce;
+border-radius: 4px;
+text-decoration: #f7f1f1;
+}
+.formcontato__botao{
+    width:180px;
+    height:50px;
+    /*background-color: #f37940;*/
+    border: 2px solid #eef0f3; /*anchura, estilo y color borde*/
+    padding: 10px; /*espacio alrededor texto*/
+    color: #ffffff; /*color texto*/
+    text-shadow: 1px 1px 2px #000;
+    /*background: #ee4b0a;
+    border: #e9e3e1;*/
+    border-radius: 4px;
+    background-image: -webkit-linear-gradient(top, #ff6803, #d3a089);
+  background-image: -moz-linear-gradient(top, #ff6803, #d3a089);
+  background-image: -ms-linear-gradient(top, #ff6803, #d3a089);
+  background-image: -o-linear-gradient(top, #ff6803, #d3a089);
+  background-image: linear-gradient(to bottom, #fd7404, #d8bfa2);
+  border-radius: 50px; /*bordes redondos*/
+  
+}
+/*.about__title{
+    text-decoration: solid;
+    font-family: 'Raleway';
+    font-size: "22";
+    font-weight: bold;
+}*/
+
+/*En este desafío nosostros gustaríamos que ustedes intentaran utilizar la metodología BEM. 
+
+Lo que es el BEM?
+
+BEM (Bloque, Elemento, Modificador) es un enfoque basado en componentes para el 
+desarrollo web. La idea detrás de esto es dividir la interfaz de usuario en bloques
+independientes. Esto hace que el desarrollo de la interfaz sea fácil y rápido, incluso
+con una interfaz de usuario compleja, y permite la reutilización del código existente sin copiar y pegar.
+
+Enlace de la documentación oficial!
+https://en.bem.info/methodology/quick-start/*/
+
+/*Sección Menu*/
+.academic{
+    background-color: white;
+}
+section.menu{
+
+}
+
+/*Sección Title*/
+
+section.title{
+
+}
+
+/*Sección About*/
+
+section.about{
+
+}
+
+/*Sección Hobbies*/
+
+section.hobbies{
+    
+}
+
+/* Experiencia Académica*/
+
+section.academic{
+
+}
+
+/* experiencia*/
+
+section.experience{
+
+}
+
+/*Contacto*/
+
+section.formcontato{
+
+}
+
+/*footeer*/
+
+section.footer{
+   
+}
+
+/* Vamos a desafiarnos trabajando con responsividad?
+Utiliza las referencias de los breakpoints @media abajo */
+
+
+/*Tablet*/
+@media (min-width: 768px) {
+
+/* Menú */
+
+/*title*/
+
+/*Skills*/
+
+/*Hobbies*/
+
+/*Formación Académica*/
+
+/*Experiencia Profesional*/
+
+}
+
+/*Mobile*/
+@media (min-width: 425px) {
+
+/*Menu*/
+
+/*Titulo*/
+
+/*Sección sobre mi*/
+
+/*Skills*/
+
+/*Hobbies*/
+ 
+/*Formación Académica*/
+
+/*Experiencia Profesional*/
+
+ /*Contacto*/
+
+/*Footer*/
+
+}
